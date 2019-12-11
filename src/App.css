@@ -46,12 +46,13 @@ p{
   text-align: justify;
 }
 .carousel-initialized{
-  height: 70vh;
+  height: 60vh;
   margin-right:2em;
 }
 img{
   width: 25vw;
   filter: grayscale(100%);
+  margin-top: 2em;
 }
 .divImage{
   text-align:center;
@@ -67,4 +68,38 @@ img{
   .whoIam { 
     grid-column: 1 / 4;
   }
+  .carousel-initialized{
+    height: 45vh;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  body{
+    margin-top:1em;
+    font-weight:1em;
+  }
+  .wrapper{
+    display:block;
+  }
+  .whoIam{
+    margin-top:0;
+  }
+  .carousel-initialized{
+    height: 75vh;
+  }
+  p {
+    margin: auto;
+    font-size: 0.9em;
+  }
+  h1{
+    margin-left: 0.5em;
+  }
+  h2{
+    margin-left: 0.8em;
+  }
+  img{
+    display: none;
+  }
+
+
 }
