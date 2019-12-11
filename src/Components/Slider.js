@@ -6,6 +6,7 @@ import CeQueJaime from './CeQueJaime';
 import CeQuiMeTouche from './CeQuiMeTouche';
 import CeQueJeDetesteFaire from './CeQueJeDetesteFaire';
 import CeQuiMagace from './CeQuiMagace';
+import Contact from './Contact';
 
 const CvSlider = () => (
   <Slider classname='slider' dots>
@@ -24,6 +25,9 @@ const CvSlider = () => (
     </div>
     <div>
       <CeQuiMagace/>
+    </div>
+    <div>
+      <Contact/>
     </div>
   </Slider>
 );
