@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CvSlider from './Components/Slider';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+    <h1>Maxime URVOY <small>Apprenant developpeur web Js/React</small></h1>
+    <div className='wrapper'>
+      <div className='divImage'>
+        <img src={('me.jpg')} alt='me'></img>
+      </div>
+      <div className='whoIam'>
+        <CvSlider className='containerOne'/>
+      </div>
     </div>
+  </div>
   );
 }
 
