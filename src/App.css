@@ -6,28 +6,39 @@
 }
 .divImage {
   grid-column: 1 / 2;
+  margin-left: 35%;
 }
 .whoIam { 
   grid-column: 2 / 4;
+
 }
-
-
+.carousel-row{
+  width: 500px;
+}
+span{
+  font-weight: bold;
+}
 body{
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
   size: 16px;
-  line-height: 16px;
+  line-height: 24px;
   margin-top: 5em;
+  color:#282828;
+  background-image: url("/pattern_dark.png");
+  background-repeat: repeat;
 }
 h1{
-  color: #cd1861;
-  
+  color: black;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 2em;
 }
 
 h2{
-  color: #DC83A3;
+  /* color: black; */
   margin-left: 4em;
+  font-family: 'Montserrat', sans-serif;
+
 }
 small{
   color:#aaaaaa;
@@ -46,8 +57,13 @@ p{
   text-align: justify;
 }
 .carousel-initialized{
-  height: 60vh;
+  height: 70vh;
   margin-right:2em;
+  background-color: #E45254;
+  width: 560px;
+  margin:auto;
+  background-image: url("/public/me.jpg");
+  background-repeat: repeat;
 }
 img{
   width: 25vw;
@@ -91,7 +107,7 @@ img{
     margin-top:0;
   }
   .carousel-initialized{
-    height: 75vh;
+    height: 100vh;
   }
   p {
     margin: auto;
